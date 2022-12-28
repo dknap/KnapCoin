@@ -23,25 +23,46 @@ struct ContentView: View {
                 Text(names.appName)
                     .font(.custom("Impact", size: 40))
                     .foregroundColor(.white)
-                NavigationView {
-                    List(networkManager.posts) { post in
-                        HStack {
-                            VStack {
-                                Text(post.headline)
-                                Text("source: \(post.source)")
-                                    .font(.system(size: 12))
-                            }
+                
+                List(networkManager.posts) { post in
+                    HStack {
+                        VStack {
+                            Text(post.headline)
+                            Text("source: \(post.source)")
+                                .font(.system(size: 12))
                         }
                     }
-                }.navigationTitle(names.appName)
+                }
             }
+            
+            HStack {
+                Button {
+                    
+                } label: {
+                    Image(systemName: "arrowtriangle.backward.fill")
+                        .padding(.horizontal, 3)
+                        .font(.system(size: 30))
+                        .foregroundColor(Color(colors.cryptoBlue))
+                }
+                
+                Spacer()
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "arrowtriangle.right.fill")
+                        .padding(.horizontal, 3)
+                        .font(.system(size: 30))
+                        .foregroundColor(Color(colors.cryptoBlue))
+                }
+            }
+        }
             
             .onAppear {
                 networkManager.fetchData()
             }
         }
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
