@@ -1,0 +1,16 @@
+PODS:
+  - DSFloatingButton (1.0.1)
+
+DEPENDENCIES:
+  - DSFloatingButton
+
+SPEC REPOS:
+  trunk:
+    - DSFloatingButton
+
+SPEC CHECKSUMS:
+  DSFloatingButton: 2611b44e75736cd2f2686691ee4d2c16f2b62391
+
+PODFILE CHECKSUM: 081e63d4116722af3c1a27d5e3cd41fa169c23f4
+
+COCOAPODS: 1.11.3
