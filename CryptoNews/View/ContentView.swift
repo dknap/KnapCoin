@@ -35,28 +35,31 @@ struct ContentView: View {
                         }
                     }
                 }
-                
-                HStack {
-                    
-                    NavigationLink {
-                        ChartsView()
-                    } label: {
-                        Image(systemName: "arrowtriangle.backward.fill")
-                            .padding(.horizontal, 3)
-                            .font(.system(size: 30))
-                            .foregroundColor(Color(colors.cryptoBlue))
-                    }
-                    
+                VStack {
                     Spacer()
-                    
-                    NavigationLink {
-                        PricesView()
-                    } label: {
-                        Image(systemName: "arrowtriangle.right.fill")
-                            .padding(.horizontal, 3)
-                            .font(.system(size: 30))
-                            .foregroundColor(Color(colors.cryptoBlue))
-                    }
+                    HStack {
+                        Spacer()
+                        NavigationLink {
+                            ChartsView()
+                        } label: {
+                            Image(systemName: "chart.line.uptrend.xyaxis.circle.fill")
+                                .padding(.horizontal, 10)
+                                .font(.system(size: 50))
+                                .foregroundColor(Color(colors.cryptoBlue))
+                                .overlay(Circle().stroke(Color(colors.cryptoBlue), lineWidth: 10))
+                        }
+                        
+                        NavigationLink {
+                            PricesView()
+                        } label: {
+                            Image(systemName: "dollarsign.circle.fill")
+                                .padding(.horizontal, 3)
+                                .font(.system(size: 50))
+                                .foregroundColor(Color(colors.cryptoBlue))
+                                .background(Color.white)
+                                .overlay(Circle().stroke(Color(colors.cryptoBlue), lineWidth: 10))
+                        }
+                    }.padding(.horizontal, 30)
                 }
             }
             .onAppear {
