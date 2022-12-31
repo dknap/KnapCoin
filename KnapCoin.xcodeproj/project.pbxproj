@@ -15,7 +15,7 @@
 		175091C0295A25D900C1C86A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175091BF295A25D900C1C86A /* Preview Assets.xcassets */; };
 		175091C7295A26A700C1C86A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091C6295A26A700C1C86A /* Constants.swift */; };
 		175091C9295A2AD000C1C86A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091C8295A2AD000C1C86A /* ApiManager.swift */; };
-		175091CE295A2E6500C1C86A /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091CD295A2E6500C1C86A /* NewsData.swift */; };
+		175091CE295A2E6500C1C86A /* ApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091CD295A2E6500C1C86A /* ApiData.swift */; };
 		FFF097E1CAD72746D6634FFD /* Pods_KnapCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707AF1E40D4C1936475B173D /* Pods_KnapCoin.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		175091BF295A25D900C1C86A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		175091C6295A26A700C1C86A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		175091C8295A2AD000C1C86A /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
-		175091CD295A2E6500C1C86A /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		175091CD295A2E6500C1C86A /* ApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiData.swift; sourceTree = "<group>"; };
 		433FEC92EDCA9B5142BC05A0 /* Pods-KnapCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnapCoin.debug.xcconfig"; path = "Target Support Files/Pods-KnapCoin/Pods-KnapCoin.debug.xcconfig"; sourceTree = "<group>"; };
 		707AF1E40D4C1936475B173D /* Pods_KnapCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnapCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		709BEEB7BD2A2E474367F115 /* Pods-KnapCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnapCoin.release.xcconfig"; path = "Target Support Files/Pods-KnapCoin/Pods-KnapCoin.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				175091C6295A26A700C1C86A /* Constants.swift */,
-				175091CD295A2E6500C1C86A /* NewsData.swift */,
+				175091CD295A2E6500C1C86A /* ApiData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			files = (
 				175091BB295A25D700C1C86A /* ContentView.swift in Sources */,
 				175091B9295A25D700C1C86A /* KnapCoinApp.swift in Sources */,
-				175091CE295A2E6500C1C86A /* NewsData.swift in Sources */,
+				175091CE295A2E6500C1C86A /* ApiData.swift in Sources */,
 				170A122D295B862000BF237C /* private.swift in Sources */,
 				175091C7295A26A700C1C86A /* Constants.swift in Sources */,
 				175091C9295A2AD000C1C86A /* ApiManager.swift in Sources */,

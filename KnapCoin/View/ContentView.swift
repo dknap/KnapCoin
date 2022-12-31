@@ -56,14 +56,15 @@ struct ContentView: View {
                                 .padding(.horizontal, 3)
                                 .font(.system(size: 50))
                                 .foregroundColor(Color(colors.cryptoBlue))
-                                .background(Color.white)
                                 .overlay(Circle().stroke(Color(colors.cryptoBlue), lineWidth: 10))
+                        }.onAppear {
+                            
                         }
                     }.padding(.horizontal, 30)
                 }
             }
             .onAppear {
-                apiManager.fetchData()
+                apiManager.newsData()
             }
         }
     }
@@ -73,7 +74,6 @@ struct ChartsView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Charts")
 
             }
 //            .navigationBarTitle("Current prices")
@@ -83,15 +83,13 @@ struct ChartsView: View {
 }
 
 struct PricesView: View {
+    var apiManager = ApiManager()
+
     var body: some View {
         NavigationView {
-            VStack {
-                Text("Prices")
-
-            }
-//            .navigationBarTitle("Current prices")
-            .navigationBarHidden(true)
-        }
+            
+        }.onAppear(perform: apiManager.bitcoinData)
+        .navigationBarHidden(true)
     }
 }
 
