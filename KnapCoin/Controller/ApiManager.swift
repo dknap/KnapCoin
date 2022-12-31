@@ -1,5 +1,5 @@
 //
-//  Networking.swift
+//  ApiManager.swift
 //  CryptoNews
 //
 //  Created by EniaKz on 26/12/2022.
@@ -9,7 +9,7 @@ import SwiftUI
 
 let newsAPI = NewsAPI()
 
-class NetworkManager: ObservableObject {
+class ApiManager: ObservableObject {
     
     @Published var posts = [News]()
     

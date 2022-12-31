@@ -29,3 +29,4 @@ fastlane/test_output
 iOSInjectionProject/
 
 private.swift
+Podfile.pod

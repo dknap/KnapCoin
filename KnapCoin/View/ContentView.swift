@@ -12,7 +12,7 @@ let names = Names()
 
 struct ContentView: View {
     
-    @ObservedObject var networkManager = NetworkManager()
+    @ObservedObject var apiManager = ApiManager()
     
     var body: some View {
         NavigationView {
@@ -25,7 +25,7 @@ struct ContentView: View {
                         .font(.custom("Impact", size: 40))
                         .foregroundColor(.white)
                     
-                    List(networkManager.posts) { post in
+                    List(apiManager.posts) { post in
                         HStack {
                             VStack {
                                 Text(post.headline)
@@ -63,7 +63,7 @@ struct ContentView: View {
                 }
             }
             .onAppear {
-                networkManager.fetchData()
+                apiManager.fetchData()
             }
         }
     }

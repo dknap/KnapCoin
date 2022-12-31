@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Names {
-    let appName = "CRYPTO NEWS"
+    let appName = "KNAPCOIN"
 }
 
 struct Colors {

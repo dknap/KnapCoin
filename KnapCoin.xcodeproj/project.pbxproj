@@ -9,30 +9,30 @@
 /* Begin PBXBuildFile section */
 		170A122B295B7CE900BF237C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 170A122A295B7CE900BF237C /* .gitignore */; };
 		170A122D295B862000BF237C /* private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A122C295B862000BF237C /* private.swift */; };
-		175091B9295A25D700C1C86A /* CryptoNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091B8295A25D700C1C86A /* CryptoNewsApp.swift */; };
+		175091B9295A25D700C1C86A /* KnapCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091B8295A25D700C1C86A /* KnapCoinApp.swift */; };
 		175091BB295A25D700C1C86A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091BA295A25D700C1C86A /* ContentView.swift */; };
 		175091BD295A25D900C1C86A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175091BC295A25D900C1C86A /* Assets.xcassets */; };
 		175091C0295A25D900C1C86A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175091BF295A25D900C1C86A /* Preview Assets.xcassets */; };
 		175091C7295A26A700C1C86A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091C6295A26A700C1C86A /* Constants.swift */; };
-		175091C9295A2AD000C1C86A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091C8295A2AD000C1C86A /* NetworkManager.swift */; };
+		175091C9295A2AD000C1C86A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091C8295A2AD000C1C86A /* ApiManager.swift */; };
 		175091CE295A2E6500C1C86A /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175091CD295A2E6500C1C86A /* NewsData.swift */; };
-		B9803C9C5F8B0838629C5C11 /* Pods_CryptoNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B06D0A482241F80792359A4 /* Pods_CryptoNews.framework */; };
+		FFF097E1CAD72746D6634FFD /* Pods_KnapCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707AF1E40D4C1936475B173D /* Pods_KnapCoin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		170A122A295B7CE900BF237C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		170A122C295B862000BF237C /* private.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = private.swift; sourceTree = "<group>"; };
-		175091B5295A25D700C1C86A /* CryptoNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		175091B8295A25D700C1C86A /* CryptoNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoNewsApp.swift; sourceTree = "<group>"; };
+		175091B5295A25D700C1C86A /* KnapCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnapCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		175091B8295A25D700C1C86A /* KnapCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnapCoinApp.swift; sourceTree = "<group>"; };
 		175091BA295A25D700C1C86A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		175091BC295A25D900C1C86A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		175091BF295A25D900C1C86A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		175091C6295A26A700C1C86A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		175091C8295A2AD000C1C86A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		175091C8295A2AD000C1C86A /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		175091CD295A2E6500C1C86A /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
-		44B3B45BBBB8CEF8D13E40AE /* Pods-CryptoNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoNews.debug.xcconfig"; path = "Target Support Files/Pods-CryptoNews/Pods-CryptoNews.debug.xcconfig"; sourceTree = "<group>"; };
-		4B06D0A482241F80792359A4 /* Pods_CryptoNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		904D3B4E281AC2AF52F2E857 /* Pods-CryptoNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoNews.release.xcconfig"; path = "Target Support Files/Pods-CryptoNews/Pods-CryptoNews.release.xcconfig"; sourceTree = "<group>"; };
+		433FEC92EDCA9B5142BC05A0 /* Pods-KnapCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnapCoin.debug.xcconfig"; path = "Target Support Files/Pods-KnapCoin/Pods-KnapCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		707AF1E40D4C1936475B173D /* Pods_KnapCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnapCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		709BEEB7BD2A2E474367F115 /* Pods-KnapCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnapCoin.release.xcconfig"; path = "Target Support Files/Pods-KnapCoin/Pods-KnapCoin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,21 +40,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9803C9C5F8B0838629C5C11 /* Pods_CryptoNews.framework in Frameworks */,
+				FFF097E1CAD72746D6634FFD /* Pods_KnapCoin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A9ADB5D756A79D9C1E52F5A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4B06D0A482241F80792359A4 /* Pods_CryptoNews.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		170A1229295B7A9600BF237C /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,7 +58,7 @@
 		1719897B29607A020067057C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				175091C8295A2AD000C1C86A /* NetworkManager.swift */,
+				175091C8295A2AD000C1C86A /* ApiManager.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -74,34 +66,34 @@
 		175091AC295A25D700C1C86A = {
 			isa = PBXGroup;
 			children = (
-				175091B7295A25D700C1C86A /* CryptoNews */,
+				175091B7295A25D700C1C86A /* KnapCoin */,
 				175091B6295A25D700C1C86A /* Products */,
-				FD06E464E5A75555F76BAD72 /* Pods */,
-				0A9ADB5D756A79D9C1E52F5A /* Frameworks */,
+				7825D67B19BBD0D9F0FB15BB /* Pods */,
+				1FFD619BF363CAB46A230D35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		175091B6295A25D700C1C86A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				175091B5295A25D700C1C86A /* CryptoNews.app */,
+				175091B5295A25D700C1C86A /* KnapCoin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		175091B7295A25D700C1C86A /* CryptoNews */ = {
+		175091B7295A25D700C1C86A /* KnapCoin */ = {
 			isa = PBXGroup;
 			children = (
-				170A122A295B7CE900BF237C /* .gitignore */,
-				175091B8295A25D700C1C86A /* CryptoNewsApp.swift */,
 				175091CC295A2E4700C1C86A /* Model */,
 				170A1229295B7A9600BF237C /* View */,
 				1719897B29607A020067057C /* Controller */,
 				170A122C295B862000BF237C /* private.swift */,
+				175091B8295A25D700C1C86A /* KnapCoinApp.swift */,
 				175091BC295A25D900C1C86A /* Assets.xcassets */,
+				170A122A295B7CE900BF237C /* .gitignore */,
 				175091BE295A25D900C1C86A /* Preview Content */,
 			);
-			path = CryptoNews;
+			path = KnapCoin;
 			sourceTree = "<group>";
 		};
 		175091BE295A25D900C1C86A /* Preview Content */ = {
@@ -121,11 +113,19 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FD06E464E5A75555F76BAD72 /* Pods */ = {
+		1FFD619BF363CAB46A230D35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				44B3B45BBBB8CEF8D13E40AE /* Pods-CryptoNews.debug.xcconfig */,
-				904D3B4E281AC2AF52F2E857 /* Pods-CryptoNews.release.xcconfig */,
+				707AF1E40D4C1936475B173D /* Pods_KnapCoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7825D67B19BBD0D9F0FB15BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				433FEC92EDCA9B5142BC05A0 /* Pods-KnapCoin.debug.xcconfig */,
+				709BEEB7BD2A2E474367F115 /* Pods-KnapCoin.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		175091B4295A25D700C1C86A /* CryptoNews */ = {
+		175091B4295A25D700C1C86A /* KnapCoin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 175091C3295A25D900C1C86A /* Build configuration list for PBXNativeTarget "CryptoNews" */;
+			buildConfigurationList = 175091C3295A25D900C1C86A /* Build configuration list for PBXNativeTarget "KnapCoin" */;
 			buildPhases = (
 				8BB757AB2F324C9B3B816CEE /* [CP] Check Pods Manifest.lock */,
 				175091B1295A25D700C1C86A /* Sources */,
@@ -146,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = CryptoNews;
+			name = KnapCoin;
 			productName = CryptoNews;
-			productReference = 175091B5295A25D700C1C86A /* CryptoNews.app */;
+			productReference = 175091B5295A25D700C1C86A /* KnapCoin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 175091B0295A25D700C1C86A /* Build configuration list for PBXProject "CryptoNews" */;
+			buildConfigurationList = 175091B0295A25D700C1C86A /* Build configuration list for PBXProject "KnapCoin" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -179,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				175091B4295A25D700C1C86A /* CryptoNews */,
+				175091B4295A25D700C1C86A /* KnapCoin */,
 			);
 		};
 /* End PBXProject section */
@@ -213,7 +213,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CryptoNews-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KnapCoin-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -228,11 +228,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				175091BB295A25D700C1C86A /* ContentView.swift in Sources */,
-				175091B9295A25D700C1C86A /* CryptoNewsApp.swift in Sources */,
+				175091B9295A25D700C1C86A /* KnapCoinApp.swift in Sources */,
 				175091CE295A2E6500C1C86A /* NewsData.swift in Sources */,
 				170A122D295B862000BF237C /* private.swift in Sources */,
 				175091C7295A26A700C1C86A /* Constants.swift in Sources */,
-				175091C9295A2AD000C1C86A /* NetworkManager.swift in Sources */,
+				175091C9295A2AD000C1C86A /* ApiManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +241,7 @@
 /* Begin XCBuildConfiguration section */
 		175091C1295A25D900C1C86A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433FEC92EDCA9B5142BC05A0 /* Pods-KnapCoin.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -289,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -301,6 +302,7 @@
 		};
 		175091C2295A25D900C1C86A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709BEEB7BD2A2E474367F115 /* Pods-KnapCoin.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -343,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -355,13 +357,13 @@
 		};
 		175091C4295A25D900C1C86A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44B3B45BBBB8CEF8D13E40AE /* Pods-CryptoNews.debug.xcconfig */;
+			baseConfigurationReference = 433FEC92EDCA9B5142BC05A0 /* Pods-KnapCoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CryptoNews/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"KnapCoin/Preview Content\"";
 				DEVELOPMENT_TEAM = PG74QXG7AY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -377,7 +379,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.eniakz.CryptoNews;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.eniakz.KnapCoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -390,13 +392,13 @@
 		};
 		175091C5295A25D900C1C86A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 904D3B4E281AC2AF52F2E857 /* Pods-CryptoNews.release.xcconfig */;
+			baseConfigurationReference = 709BEEB7BD2A2E474367F115 /* Pods-KnapCoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CryptoNews/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"KnapCoin/Preview Content\"";
 				DEVELOPMENT_TEAM = PG74QXG7AY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -412,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.eniakz.CryptoNews;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.eniakz.KnapCoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -426,7 +428,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		175091B0295A25D700C1C86A /* Build configuration list for PBXProject "CryptoNews" */ = {
+		175091B0295A25D700C1C86A /* Build configuration list for PBXProject "KnapCoin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				175091C1295A25D900C1C86A /* Debug */,
@@ -435,7 +437,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		175091C3295A25D900C1C86A /* Build configuration list for PBXNativeTarget "CryptoNews" */ = {
+		175091C3295A25D900C1C86A /* Build configuration list for PBXNativeTarget "KnapCoin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				175091C4295A25D900C1C86A /* Debug */,
