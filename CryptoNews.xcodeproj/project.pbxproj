@@ -63,6 +63,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1719897B29607A020067057C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				175091C8295A2AD000C1C86A /* NetworkManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		175091AC295A25D700C1C86A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +96,7 @@
 				175091B8295A25D700C1C86A /* CryptoNewsApp.swift */,
 				175091CC295A2E4700C1C86A /* Model */,
 				170A1229295B7A9600BF237C /* View */,
+				1719897B29607A020067057C /* Controller */,
 				170A122C295B862000BF237C /* private.swift */,
 				175091BC295A25D900C1C86A /* Assets.xcassets */,
 				175091BE295A25D900C1C86A /* Preview Content */,
@@ -107,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				175091C6295A26A700C1C86A /* Constants.swift */,
-				175091C8295A2AD000C1C86A /* NetworkManager.swift */,
 				175091CD295A2E6500C1C86A /* NewsData.swift */,
 			);
 			path = Model;
@@ -371,6 +379,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.eniakz.CryptoNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,6 +414,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.eniakz.CryptoNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
