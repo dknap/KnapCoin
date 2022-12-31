@@ -75,21 +75,18 @@ struct ChartsView: View {
         NavigationView {
             VStack {
 
-            }
-//            .navigationBarTitle("Current prices")
-            .navigationBarHidden(true)
+            }.navigationBarHidden(true)
         }
     }
 }
 
 struct PricesView: View {
-    var apiManager = ApiManager()
-
     var body: some View {
         NavigationView {
-            
-        }.onAppear(perform: apiManager.bitcoinData)
-        .navigationBarHidden(true)
+            VStack {
+
+            }.navigationBarHidden(true)
+        }
     }
 }
 
