@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  CryptoNews
+//  KnapCoin
 //
 //  Created by EniaKz on 26/12/2022.
 //
@@ -65,6 +65,7 @@ struct ContentView: View {
             }
             .onAppear {
                 apiManager.newsData()
+                
             }
         }
     }
@@ -74,18 +75,24 @@ struct ChartsView: View {
     var body: some View {
         NavigationView {
             VStack {
-
-            }.navigationBarHidden(true)
+                
+            }
+            .navigationBarHidden(true)
         }
     }
 }
 
 struct PricesView: View {
+    @ObservedObject var coinMonitor = CoinGecko()
     var body: some View {
         NavigationView {
             VStack {
-
-            }.navigationBarHidden(true)
+                
+            }
+            .navigationBarHidden(true)
+        }
+        .onAppear() {
+            coinMonitor.getBtcPrice()
         }
     }
 }

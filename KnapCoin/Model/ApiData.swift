@@ -18,3 +18,11 @@ struct News: Decodable, Identifiable {
     let source: String
     let url: String
 }
+
+struct Coin: Decodable {
+    let coinInfo: [Symbol]
+}
+
+struct Symbol: Decodable {
+    let price: [String: Double]
+}
